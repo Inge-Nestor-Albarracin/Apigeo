@@ -1,0 +1,122 @@
+.informativa-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.informativa-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.selector-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.selector-wrapper select {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.selector-wrapper select:hover {
+  border-color: #1abc9c;
+}
+
+.selector-wrapper select:focus {
+  outline: none;
+  border-color: #1abc9c;
+  box-shadow: 0 0 0 3px rgba(26, 188, 156, 0.2);
+}
+
+.country-card {
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-4px);
+}
+
+.flag-container {
+  background-color: #ecf0f1;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.country-flag {
+  max-width: 200px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-info {
+  padding: 2rem;
+}
+
+.country-info h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #1abc9c;
+  padding-left: 1rem;
+}
+
+.country-info p {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.country-info strong {
+  color: #2c3e50;
+  font-weight: 600;
+  min-width: 120px;
+  display: inline-block;
+}
+
+.placeholder {
+  text-align: center;
+  padding: 3rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  .informativa-container {
+    padding: 1rem;
+  }
+
+  .country-info p strong {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .country-flag {
+    max-width: 150px;
+  }
+}

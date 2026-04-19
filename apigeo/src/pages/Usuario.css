@@ -1,0 +1,148 @@
+.usuario-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.usuario-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.usuario-form {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #1abc9c;
+}
+
+.vista-previa-pais {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.flag-preview {
+  width: 60px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.pais-info-preview {
+  flex: 1;
+}
+
+.pais-info-preview p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.btn-submit,
+.btn-reset,
+.btn-nuevo {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #16a085;
+}
+
+.btn-reset {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.btn-reset:hover {
+  background-color: #7f8c8d;
+}
+
+.datos-enviados {
+  background-color: #e8f8f5;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.datos-enviados h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.tarjeta-usuario {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.tarjeta-usuario p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.flag-resultado {
+  width: 80px;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.btn-nuevo {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-nuevo:hover {
+  background-color: #2980b9;
+}

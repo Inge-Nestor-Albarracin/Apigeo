@@ -1,0 +1,94 @@
+.original-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.original-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.comparador {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.selector-pais {
+  flex: 1;
+  min-width: 280px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.selector-pais label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.selector-pais select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.selector-pais select:focus {
+  outline: none;
+  border-color: #1abc9c;
+}
+
+.info-pais {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.info-pais .flag {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.info-pais p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.resultado {
+  background-color: #e8f8f5;
+  border-left: 4px solid #1abc9c;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.resultado h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.resultado p {
+  font-size: 1.1rem;
+  color: #16a085;
+  font-weight: bold;
+}
